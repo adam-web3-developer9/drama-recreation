@@ -1,7 +1,7 @@
 interface:
   display_name: "短剧分析·融合·复刻·续写"
-  short_description: "统一支持单剧或多剧分析、融合、复刻与续写，五场分文件保存，执行过程可见"
-  default_prompt: "使用 $drama-recreation，按我的要求处理一个或多个剧本，先读项目索引，只执行本次指定任务，输出实际进度并保存成果。"
+  short_description: "支持视频拉片还原剧本、逐镜拆解及多剧分析、融合、复刻与续写，保留证据并分批保存"
+  default_prompt: "使用 $drama-recreation，按我的要求处理视频或剧本，先读项目索引；视频拆解保留原片对白、动作与来源定位，只执行本次指定任务，报告实际进度并保存成果。"
   icon_small: "assets/icon.svg"
   icon_large: "assets/icon.svg"
 policy:
